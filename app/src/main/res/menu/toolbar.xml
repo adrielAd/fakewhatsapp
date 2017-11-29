@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemInformation"
+        android:icon="@drawable/search"
+        android:title="Informação"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itemGroup"
+        android:title="Novo Grupo" />
+    <item
+        android:id="@+id/itemTransmission"
+        android:title="Nova Transmissão" />
+    <item
+        android:id="@+id/itemWeb"
+        android:title="Whatsapp Web" />
+    <item
+        android:id="@+id/itemMessage"
+        android:title="Mensagens Marcadas" />
+    <item
+        android:id="@+id/itemConfig"
+        android:title="Configurações" />
+</menu>
